@@ -11,12 +11,12 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return   MaterialApp(
+    return MaterialApp(
       debugShowCheckedModeBanner: false,
       initialRoute: '/',
       routes: {
-        MainPage.routeName :(context) =>   MainPage(),
-        MenuPage.routeName :(context) =>  MenuPage()
+        MainPage.routeName: (context) => const MainPage(),
+        MenuPage.routeName: (context) => const MenuPage(),   // HiddenDrawer.routeNmae :(context) =>  HiddenDrawer()
       },
     );
   }

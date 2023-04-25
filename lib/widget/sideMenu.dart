@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:flutter1/widget/animatedBar.dart';
 
 class SideMenuTitle extends StatelessWidget {
   const SideMenuTitle({
@@ -18,7 +17,6 @@ class SideMenuTitle extends StatelessWidget {
           ),
         ),
         Stack(children: [
-          AnimatedBar(isActive: true),
            Positioned(
               height: 56.0,
               width: 288.0,
